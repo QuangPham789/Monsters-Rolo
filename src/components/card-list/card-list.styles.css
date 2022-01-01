@@ -1,0 +1,10 @@
+body{
+    background: linear-gradient(to right, #4daf54, #3d8880);
+}
+.card-list{
+    width: 85vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
