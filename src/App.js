@@ -20,7 +20,7 @@ class App extends Component {
 
   handelChange = (e) => {
     this.setState({ searchField: e.target.value });
-  }
+  };
 
   render() {
     //cach viet ngan cua cach ben duoi
@@ -33,6 +33,7 @@ class App extends Component {
     );
     return (
       <div className="App">
+        <h1>Monsters Rolodex</h1>
         <SearchBox
           placeholder="search monsters"
           handelChange={this.handelChange}
